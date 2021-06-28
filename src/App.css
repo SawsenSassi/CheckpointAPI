@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+.Header{
+  display: flex;
+  justify-content: center;
+  background: hsla(0, 0%, 100%, .98);
+  box-shadow: 0px 5px 10px 0px #e2dede;
+
+}
+
+.imageHeader{
+  display: flex;
+  justify-content: center;
+}
+
+.imageHeader p{
+  margin-top: 20px;
+  margin-left: 19px;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.tab{
+
+  margin-left: 105px;
+  margin-right: 105px;
+  margin-top: 30px;
+}
+
+table{
+  border-style: dashed;
+}
+.table-hover tbody tr:hover td {
+  background: rgb(110, 214, 192);
+}
